@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>To-Do List</title>
+      <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+      <script src="todoevents.js"></script>
+      <link rel="stylesheet" type="text/css" href="todoclasses.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div>
+        <button id="mode" style="display:block;"><i class="fa fa-moon-o"></i></button>
+ <img src="bear.jpg" class="bg">
+              <h1 id="todoheader"> Список дел</h1>
+        <input type="text" id="inputbox" autofocus placeholder="Введите дело"></input>
+        <input type="number" id="time" min="1" max="24"></input>
+        <!-- <input type="text" id="quantity" placeholder="Количество" style="width:80px" /> -->
+        <button id="add"><i class="fa fa-plus" aria-hidden="true"></i>Добавить</button>
+        <ul id="mylist" class="fa-ul"></ul>
+        <div id="myModal" class="hide">
+          <div class = "modal-content">
+            <p>Вы не ввели никакое дело</p><button id="modalButton" class = "modal-button">Исправлюсь</button>
+          </div>
+        </div>
+        <div id="sameTask" class="hide">
+          <div class = "modal-content">
+            <p>Такое дело уже есть в списке</p><button id="sameTaskButton" class = "modal-button">Больше не повторится</button>
+          </div>
+        </div>
+        <button id="clear"><i class="fa fa-recycle" aria-hidden="true"></i> Очистить список</button>
+        <i id="help" class="fa fa-question-circle-o" title="Справка" aria-hidden="true"></i>
+        <a href="RN/release_notes.html" target="_blank" ><i class="fa fa-newspaper-o" title="Release Notes"></i></a>
+        <p id="helptext" class="help-text">Введите в поле запланированное дело и нажмите кнопку <b>Добавить</b>.<br />
+          Список дел не теряется, даже если обновить страницу или закрыть и открыть браузер, поэтому эту вкладку можно использовать как приложение.<br />Когда дело сделано, нажмите на крестик, чтобы вычеркнуть его.
+          Чтобы удалить все дела, нажмите <b>Очистить список</b>.<br />
+          Нажмите на справку ещё раз, чтобы скрыть этот текст.</p>
+        </div>
+
+    </body>
+
+
+</html>

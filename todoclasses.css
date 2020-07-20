@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body, button, input {
+  font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    background-image: linear-gradient(PaleGoldenRod, Cornsilk);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.bg{
+border-radius: 50%;
+height: auto;
+height: 20%;
+width: 20%;
+animation: bear 1s infinite;
+}
+
+.bg:hover {
+  transform: scaleX(-1);
+}
+
+
+button {
+  border: solid;
+  border-width: 1px;
+  margin-left: 5px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(-30deg, PaleGoldenRod, Cornsilk);
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 3px 5px 2px DarkKhaki;
+  transform: translateY(1px);
+}
+span:focus {
+  background-color: white;
+}
+
+#inputbox{
+  padding: 3px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+#inputbox:focus{
+  border: 2px solid grey;
+}
+
+li {
+  margin: 5px;
+  padding-bottom: 10px;
+}
+
+.strikethrough {
+  text-decoration-line: line-through;
+}
+
+.rem {
+  border:none;
+  background-color: none;
+
+}
+
+.editor {
+  border:none;
+  background-color: none;
+  margin: 0;
+}
+
+
+.fa-times {
+  color:green;
+  font-size:55px;
+
+}
+.fa-pencil-square-o, .fa-floppy-o, .fa-question-circle-o, .fa-newspaper-o, .fa-recycle{
+  color:DarkGoldenRod;
+
+}
+.fa-plus{
+  margin-right:10px;
+  margin-top:2px;
+  color:DarkGoldenRod;
+}
+
+.fa-check-square{
+  color:CornflowerBlue;
+}
+.fa-question-circle-o{
+  width:50px;
+  color:DarkGoldenRod;
+  margin-left:200px;
+  cursor:pointer
+}
+
+.kek{
+  animation-name: example;
+  animation-duration: 2s;
+}
+@keyframes example {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(350deg);}
+}
+/* @keyframes bear {
+  50% {transform: rotateY(90deg);}
+} */
+.hide{
+  display: none;
+}
+.modal{
+  display: block;
+  width: 100%;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background-color: Azure;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  border: outset;
+}
+.modal-button{
+  position: sticky;
+  left: -50%;
+  bottom: 0%;
+}
+.help-text{
+  display: none;
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 12px;
+line-height: 150%;
+  border: 1px solid DarkGoldenRod;
+  border-radius: 10px;
+}
+[type=time]{
+color: black;
+}
+
+
+.darkbear{
+  filter: hue-rotate(150deg);
+}
+.dark{
+  background-image: linear-gradient(DimGray, Gray);
+}
+.darkicon{
+  color: #D7C49EFF;
+}
+.darkbutton{
+  background: #343148FF;
+  color: #D7C49EFF;
+  border: solid 1px #D7C49EFF;
+  box-shadow: 5px 5px 5px black;
+}
+
+.modal-content-dark{
+  background-color: DarkGrey;
+}
