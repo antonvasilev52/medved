@@ -94,12 +94,12 @@ $(function () {
 
   $("#add").on("click", function() {
     let val = $("#inputbox").val();
-    let timeVal = $("#time").val();
-    let hour = timeVal * 60 * 60;
+//     let timeVal = $("#time").val();
+//     let hour = timeVal * 60 * 60;
 
     if(val !== '' && !itemsArray.includes(val)) {
-      let listText = $("<span contentEditable='false'></span>").text(`${val}: `);
-      let listTime = $(" <span class='Kuka'></span>").text(`${hour}`);
+      let listText = $("<span contentEditable='false'></span>").text(`${val} `);
+//      let listTime = $(" <span class='Kuka'></span>").text(`${hour}`);
       let elem = $("<li></li>");
       $(elem).prepend(listText, listTime);
       $(elem).append(crossButton, editButton);
