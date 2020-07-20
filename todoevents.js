@@ -155,9 +155,9 @@ $(function () {
       }
   })
 })
-$(function (){
-  let kuka = parseInt($(".Kuka").text(),10);
-  let kuko = kuka - 1;
-  $(".Kuka").text(`${kuka} + 1`);
-  // setInterval(kukaFunction, 1000);
-})
+// $(function (){
+//   let kuka = parseInt($(".Kuka").text(),10);
+//   let kuko = kuka - 1;
+//   $(".Kuka").text(`${kuka} + 1`);
+//   // setInterval(kukaFunction, 1000);
+// })
