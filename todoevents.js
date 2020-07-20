@@ -101,7 +101,7 @@ $(function () {
       let listText = $("<span contentEditable='false'></span>").text(`${val} `);
 //      let listTime = $(" <span class='Kuka'></span>").text(`${hour}`);
       let elem = $("<li></li>");
- //     $(elem).prepend(listText, listTime);
+      $(elem).prepend(listText);
       $(elem).append(crossButton, editButton);
       // $(elem).append("<i class='fa-li fa fa-check'>");
       itemsArray.push(val);
