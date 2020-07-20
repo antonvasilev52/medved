@@ -136,8 +136,7 @@ li {
 .help-text{
   display: none;
   padding: 5px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-right: 20%;
   font-size: 12px;
 line-height: 150%;
   border: 1px solid DarkGoldenRod;
