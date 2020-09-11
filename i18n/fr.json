@@ -1,12 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alice",
-			"David",
-			"Santhosh"
+			"Anton"
 		],
-		"last-updated": "2012-09-21",
-		"locale": "ru",
+		"last-updated": "2020-09-12",
+		"locale": "fr",
 		"message-documentation": "qqq",
 		"AnotherMetadata": "AnotherMedatadataValue"
 	},
@@ -16,5 +14,5 @@
 	"appname-about": "О приложении",
 	"appname-footer": "Нижний колонтитул",
 	"welcome": "Добро пожаловать!",
-	"clearlist": "Очистить список"
+	"clearlist": "Effacer la liste"
 }

@@ -15,5 +15,6 @@
 	"appname-header-introduction": "Introduction",
 	"appname-about": "About this application",
 	"appname-footer": "Footer text",
-	"welcome": "Welcome!"
+	"welcome": "Welcome!",
+	"clearlist": "Clear the list"
 }
