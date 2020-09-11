@@ -1,4 +1,5 @@
 jQuery(document).ready(function() {
+  $.i18n({ locale: 'en' });
   let  update_texts = function() { $('body').i18n() };
   $.i18n().load({
 	'ru': 'i18n/ru.json',
