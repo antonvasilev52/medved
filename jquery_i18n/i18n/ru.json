@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alice",
+			"David",
+			"Santhosh"
+		],
+		"last-updated": "2012-09-21",
+		"locale": "ru",
+		"message-documentation": "qqq",
+		"AnotherMetadata": "AnotherMedatadataValue"
+	},
+	"appname-title": "Пример приложения",
+	"appname-sub-title": "Пример приложения с jquery.i18n",
+	"appname-header-introduction": "Введение",
+	"appname-about": "О приложении",
+	"appname-footer": "Нижний колонтитул",
+	"welcome": "Добро пожаловать!"
+}
