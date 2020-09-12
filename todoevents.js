@@ -40,7 +40,7 @@ $(function () {
 //Функция вывода даты в заголовок
 $(function () {
 let today = new Date();
-$("#todoheader").text(`Список дел на ${today.toLocaleDateString('ru-RU')}`)
+// $("#todaydate").text(`${today.toLocaleDateString('ru-RU')}`)
 $("#todoheader").prepend("<i class='fa fa-calendar' aria-hidden='true'></i> ")
 })
 
@@ -100,7 +100,7 @@ $(function () {
     if(val !== '' && !itemsArray.includes(val)) {
       let listText = $("<span contentEditable='false'></span>").text(`${val} `);
 //      let listTime = $(" <span class='Kuka'></span>").text(`${hour}`);
-      let elem = $("<li></li>");
+      let elem = $("<li class='tasks'></li>");
       $(elem).prepend(listText);
       $(elem).append(crossButton, editButton);
       // $(elem).append("<i class='fa-li fa fa-check'>");
@@ -155,6 +155,15 @@ $(function () {
       }
   })
 })
+
+// Отображение списка языков
+
+$(function () {
+  $("#languageSwitcher").on("click", function(){
+    $(".lang-switch").toggleClass("show");
+  })
+})
+
 // $(function (){
 //   let kuka = parseInt($(".Kuka").text(),10);
 //   let kuko = kuka - 1;
