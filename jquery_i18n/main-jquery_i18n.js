@@ -4,7 +4,11 @@ $(function() {
   const japOptions = { year: 'numeric', month: 'short', day: 'numeric' };
   let  update_texts = function() { $('body').i18n() };
   $.i18n().load({
-  'en': {
+	en: 'i18n/en.json',
+	ru: 'i18n/en.json',
+  	fr: 'i18n/fr.json',
+	ja: 'i18n/ja.json'
+/* 'en': {
     'welcome': 'Welcome',
 	'clearlist': ' Clear the list',
 	'heading': 'To-do list for ' + date.toLocaleDateString('en-US'),
@@ -23,9 +27,7 @@ $(function() {
 	'help': 'Справка'
 	
   },
-  	fr: 'i18n/fr.json',
-	ja: 'i18n/ja.json'
-/*  'fr' : {
+ 'fr' : {
     'welcome': 'Bienvenue',
 	'clearlist': ' Effacer la liste',
 	'heading': 'Liste des tâches à faire le '  + date.toLocaleDateString('fr-FR',japOptions),

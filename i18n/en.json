@@ -10,11 +10,11 @@
 		"message-documentation": "qqq",
 		"AnotherMetadata": "AnotherMedatadataValue"
 	},
-	"appname-title": "Example Application",
-	"appname-sub-title": "An example application with jquery.i18n",
-	"appname-header-introduction": "Introduction",
-	"appname-about": "About this application",
-	"appname-footer": "Footer text",
-	"welcome": "Welcome!",
-	"clearlist": "Clear the list"
+    'welcome': 'Welcome',
+	'clearlist': ' Clear the list',
+	'heading': 'To-do list for ' + date.toLocaleDateString('en-US'),
+	'name': 'Enter a task',
+	'tooltip': 'Task',
+	'add': 'Add',
+	'help': 'Help'
 }
