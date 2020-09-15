@@ -1,20 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alice",
-			"David",
-			"Santhosh"
+			"Anton"
 		],
-		"last-updated": "2012-09-21",
+		"last-updated": "2020-09-15",
 		"locale": "ru",
 		"message-documentation": "qqq",
 		"AnotherMetadata": "AnotherMedatadataValue"
 	},
-	"appname-title": "Пример приложения",
-	"appname-sub-title": "Пример приложения с jquery.i18n",
-	"appname-header-introduction": "Введение",
-	"appname-about": "О приложении",
-	"appname-footer": "Нижний колонтитул",
-	"welcome": "Добро пожаловать!",
-	"clearlist": "Очистить список"
+    "welcome": "Добро пожаловать",
+	"clearlist": " Очистить список",
+	"heading": "Список дел на "  + date.toLocaleDateString("ru-RU"),
+	"name": "Введите дело",
+	"tooltip": "Или дельце",
+	"add": "Добавить",
+	"help": "Справка"
 }

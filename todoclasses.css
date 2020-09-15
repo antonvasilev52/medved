@@ -25,6 +25,7 @@ body{
 	text-decoration: none;
 	margin: 1px;
 	padding-bottom: 0px;
+	height: 5%;
 	position: relative;
 
 }
@@ -36,7 +37,6 @@ body{
 	background-color: #e3da72;
 	padding: 2px;
 	color: black;
-
 }
 
 .selectLanguage a:hover {

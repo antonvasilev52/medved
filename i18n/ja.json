@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alice",
+			"David",
+			"Santhosh"
+		],
+		"last-updated": "2012-09-21",
+		"locale": "ru",
+		"message-documentation": "qqq",
+		"AnotherMetadata": "AnotherMedatadataValue"
+	},
+    "welcome": "ようこそ",
+	"clearlist": " 削除",
+	"heading": date.toLocaleDateString("ja-JP",japOptions) + "のやることリスト ",
+	"name": "やることを入力してください",
+	"add": "追加",
+	"help": "Aide"
+}
