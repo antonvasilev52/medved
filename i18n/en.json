@@ -10,11 +10,11 @@
 		"message-documentation": "qqq",
 		"AnotherMetadata": "AnotherMedatadataValue"
 	},
-    'welcome': 'Welcome',
-	'clearlist': ' Clear the list',
-	'heading': 'To-do list for ' + date.toLocaleDateString('en-US'),
-	'name': 'Enter a task',
-	'tooltip': 'Task',
-	'add': 'Add',
-	'help': 'Help'
+    "welcome": "Welcome",
+	"clearlist": " Clear the list",
+	"heading": "To-do list for " + date.toLocaleDateString("en-US"),
+	"name": "Enter a task",
+	"tooltip": "Task",
+	"add": "Add",
+	"help": "Help"
 }

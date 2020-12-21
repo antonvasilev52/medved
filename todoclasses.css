@@ -16,16 +16,13 @@ body{
 .topnav button {
 	background-color: #e3da72;
 	display:inline-block;
-	float: top;
 }
 
 .selectLanguage {
 	display: inline;
 	list-style-type:none;
 	text-decoration: none;
-	margin: 1px;
-	padding-bottom: 0px;
-	height: 5%;
+	padding-bottom: 0;
 	position: relative;
 
 }

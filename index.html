@@ -4,16 +4,18 @@
       <title>To-Do List</title>
 	  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.messagestore.min.js"></script>
       <script src="todoevents.js"></script>
-	  <script src="jquery_i18n/CLDRPluralRuleParser.js"></script>
+<!--	  <script src="jquery_i18n/CLDRPluralRuleParser.js"></script>
 		<script src="jquery_i18n/jquery.i18n.js"></script>
 		<script src="jquery_i18n/jquery.i18n.messagestore.js"></script>
 		<script src="jquery_i18n/jquery.i18n.fallbacks.js"></script>
 		<script src="jquery_i18n/jquery.i18n.language.js"></script>
 		<script src="jquery_i18n/jquery.i18n.parser.js"></script>
 		<script src="jquery_i18n/jquery.i18n.emitter.js"></script>
-		<script src="jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-		<script src="jquery_i18n/main-jquery_i18n.js"></script>
+		<script src="jquery_i18n/jquery.i18n.emitter.bidi.js"></script> -->
+		
       <link rel="stylesheet" type="text/css" href="todoclasses.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="apple-touch-icon" sizes="180x180" href="panda/apple-touch-icon.png">
@@ -36,7 +38,7 @@
 	  <div class="topnav">
 	   
         <button id="mode"><i class="fa fa-moon-o"></i></button>
-		<button id="languageSwitcher"><i class="fa fa-language"></i></button>
+		<button id="languageSwitcher"><i class="fa fa-language" data-i18n="[title]interface-language"></i></button>
 		  <div class="selectLanguage">
 		  <a href="#" class="lang-switch" data-locale="en">English</a>
 		  <a href="#" class="lang-switch" data-locale="ru">Русский</a>
@@ -47,7 +49,7 @@
 		</div>
 
               <h1 id="todoheader" data-i18n="heading"> Список дел на</h1>
-        <input type="text" id="inputbox" autofocus data-i18n="[placeholder]name" title="tooltip"></input>
+        <input type="text" id="inputbox" autofocus ></input>
 <!--         <input type="number" id="time" min="1" max="24"></input> -->
         <!-- <input type="text" id="quantity" placeholder="Количество" style="width:80px" /> -->
        <button id="add" > <i class="fa fa-plus" aria-hidden="true"></i><span data-i18n="add">Добавить</span></button>
@@ -71,7 +73,7 @@
           Нажмите на справку ещё раз, чтобы скрыть этот текст.</p>
         </div>
   <p id="messages"></p>
-
+<script src="jquery_i18n/main-jquery_i18n.js"></script>
     </body>
 
 
